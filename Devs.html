@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        html {
+            background-color: black;
+        }
+        .cont{
+            animation-name: animacion;
+            animation-duration: 20s;
+            animation-iteration-count: 70;
+            color: white;
+            font-size: 100px;
+            position: relative;
+            text-align: center;
+            font-style:italic; 
+            text-align: center; 
+
+        }
+    
+        @keyframes animacion {
+            0%   {color:red; left:0px; top:0px;}
+            25%  {color:yellow; left:300px; top:0px;}
+            50%  {color:blue; left:300px; top:300px;}
+            75%  {color:green; left:0px; top:300px;}
+            100% {color:red; left:0px; top:0px;}
+        }
+        .cd{
+            position: absolute;
+            top: 5%;
+            left: 20%;
+            height: 20%;
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="cd">
+        <div class="cont">
+            "FELIZ DÍA DEL PROGRAMADOR"
+            <img src="logo.png"></img>
+            <img src="gente.jpeg" height="600" width="600"></img>
+            <img src="Laida.jpg" height="600" width="200"></img>
+        </div>
+        
+    </div>
+</body>
+</html>
